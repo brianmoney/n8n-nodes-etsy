@@ -39,7 +39,7 @@
       "dist/credentials/EtsyApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/Etsy/Etsy.node.js"
+      "dist/nodes/Etsy.node.js"
     ]
   },
   "devDependencies": {
