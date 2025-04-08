@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-etsy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A custom n8n node package for Etsy integration",
   "keywords": [
     "n8n-community-node-package"
