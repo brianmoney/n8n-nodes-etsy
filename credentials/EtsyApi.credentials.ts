@@ -19,6 +19,7 @@ export class EtsyApi implements ICredentialType {
 			displayName: 'Shared Secret',
 			name: 'sharedSecret',
 			type: 'string',
+			typeOptions: { password: true },
 			default: '',
 			placeholder: 'Enter your Etsy App Shared Secret',
 			description: 'Enter your App Shared Secret from the developers portal',
