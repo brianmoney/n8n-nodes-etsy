@@ -7,21 +7,21 @@ export class EtsyApi implements ICredentialType {
 	documentationUrl = 'https://developers.etsy.com/documentation';
 	properties: INodeProperties[] = [
 		{
-			displayName: 'Personal Access Token',
-			name: 'personalAccessToken',
+			displayName: 'Keystring',
+			name: 'keyString',
 			type: 'string',
 			typeOptions: { password: true },
 			default: '',
-			placeholder: 'Enter your Etsy personal access token',
-			description: 'Your personal access token from Etsy developers portal',
-		},
-		{
-			displayName: 'Shop ID',
-			name: 'shopId',
+			placeholder: 'Enter your Etsy App Keystring',
+			description: 'Your App Keystring from Etsy developers portal',
+	},
+	{
+			displayName: 'Shared Secret',
+			name: 'sharedSecret',
 			type: 'string',
 			default: '',
-			placeholder: 'Enter your Etsy shop ID',
-			description: 'ID of your Etsy shop',
-		},
+			placeholder: 'Enter your Etsy App Shared Secret',
+			description: 'Enter your App Shared Secret from the developers portal',
+	},
 	];
 }
